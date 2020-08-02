@@ -12,9 +12,9 @@ if (process.env.NODE_ENV == 'production') {
 // populate with your routes
 app.use('/home', router);
 app.get('/alive', (req, res) => {
-    res.json({ "status": "You can connected" })
+    res.json({ "status": "You are connected" })
 })
-app.listen(process.env.PORT || 5000, () => {
+app.listen(process.env.PORT || 4000, () => {
     console.log(`Server started on Port : ${process.env.PORT}`)
 })
 
