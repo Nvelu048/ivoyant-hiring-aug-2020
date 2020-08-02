@@ -1,0 +1,35 @@
+{
+  "name": "full-stack-app-template",
+  "version": "0.0.1",
+  "description": "Full stack template based on MERN stack",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && npm run start",
+    "server": "cd server && npm run dev",
+    "dev": "npm-run-all --parallel server client",
+    "prebuild": "cd client && npm run build",
+    "build": "cd server && npm run build",
+    "archive": "git archive -o app.zip HEAD"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nvelu048/full-stack-app-template.git"
+  },
+  "keywords": [
+    "MERN",
+    "Full_Stack",
+    "MongoDB",
+    "Express",
+    "React",
+    "Node"
+  ],
+  "author": "Nagavelu Chithaganapathy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nvelu048/full-stack-app-template/issues"
+  },
+  "homepage": "https://github.com/Nvelu048/full-stack-app-template#readme",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
