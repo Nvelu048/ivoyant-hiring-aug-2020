@@ -15,6 +15,6 @@ app.get('/alive', (req, res) => {
     res.json({ "status": "You are connected" })
 })
 app.listen(process.env.PORT || 4000, () => {
-    console.log(`Server started on Port : ${process.env.PORT}`)
+    console.log(`Server started on Port : ${process.env.PORT || 4000}`)
 })
 

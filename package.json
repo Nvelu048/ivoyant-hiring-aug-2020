@@ -4,12 +4,15 @@
   "description": "Full stack template based on MERN stack",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "client": "cd client && npm run start",
-    "server": "cd server && npm run dev",
-    "dev": "npm-run-all --parallel server client",
+    "start-client": "cd client && npm run start",
+    "start-server": "cd server && npm run dev",
+    "dev": "npm-run-all --parallel start-server start-client",
     "prebuild": "cd client && npm run build",
     "build": "cd server && npm run build",
-    "archive": "git archive -o app.zip HEAD"
+    "archive": "git archive -o app.zip HEAD",
+    "setup-client": "cd client && npm install",
+    "setup-server": "cd server && npm install",
+    "postinstall": "npm-run-all --parallel setup-client setup-server"
   },
   "repository": {
     "type": "git",
