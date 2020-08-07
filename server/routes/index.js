@@ -1,7 +1,4 @@
-const router = require('express').Router();
-
-router.get('/', (req, res) => {
-    res.send("Server reachable")
-})
-
-module.exports = router;
+const payment = require('./payment');
+const config = require('./config')
+const credit = require('./credit');
+module.exports = { payment, credit, config };

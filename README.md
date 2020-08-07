@@ -1,36 +1,9 @@
-# full-stack-app-template
+# iVoyant-hiring-challenge-aug-2020
 
-Template for bootstrapping full stack app quickly thereby reducing environment up time and focus on app
+Front End Challenge.
 
-## Overview
-
-This repo was created in order to reduce environment up time. Especially during online Hackathons.
-
-## Tech Stack
-
-Front End: React \
- Back End: NodeJS & DB of your choice
-
-## Features
-
-1. For Development, user can run both client and server parallely, just by running
-
-```javascript
-npm run dev
-```
-
-2. For Production, user can run following command which build static files out of front end
-
-```javascript
-npm run build
-```
-
-3. User can also, archive the entire repo using below command.
-
-```javascript
-npm run archive
-```
-
-## Note
-
-    User should replace origin before implementing their logic
+Takeaway:
+  1. Try to avoid food inbetween competition
+  2. Demistify the logic first
+  3. Try to isolate till competition ends
+  4. Learned ant design framework, which is awesome

@@ -1,0 +1,22 @@
+table {
+    margin: 8px auto;
+}
+
+table, th, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    text-align: left;
+    border-spacing: 5px;
+}
+
+thead {
+    background-color: #02AFAC;
+    color: #eff;
+}

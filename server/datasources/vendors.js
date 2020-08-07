@@ -1,0 +1,22 @@
+const vendors = [
+    {
+        "vendorId": "D1",
+        "vendorName": "Delmonte",
+        "creditBal": 600.0
+    },
+    {
+        "vendorId": "T1",
+        "vednorName": "Target"
+    },
+    {
+        "vendorId": "W1",
+        "vendorName": "Walmart",
+        "creditBal": 12.25
+    },
+    {
+        "vendorId": "G1",
+        "creditBal": 0.0
+    }
+]
+
+module.exports = vendors;

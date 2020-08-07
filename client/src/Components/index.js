@@ -1,3 +1,4 @@
-import Label from './Label/Label'
-
-export { Label }
+import Table from './Table/Table'
+import Credit from './Credit/Credit'
+import Payment from './Payment/Payment'
+export { Table, Credit, Payment }
